@@ -25,21 +25,23 @@ public class Lab08b_DrawShape {
         size = kb.nextInt();
 
         int shift = size * 2;
-        
-        for (int r = 1; r <= size; r++) {
-            for (int c = 0; c < r; c++) {
-                System.out.print("*");
+         
+        for(int q = 0; q < size; q++){
+            for(int w = 0; w < q; w++){
+            System.out.print("*");
             }
-            shift -= 2;
-            for (int k = 0; k < shift; k++) {
+            shift -=2;
+            for(int e = 0; e < shift; e++){
                 System.out.print(" ");
             }
-
-            for (int j = 0; j < r; j++) {
+            for(int r= 0; r < q; r++){
                 System.out.print("*");
             }
             System.out.println();
+            
         }
-
+               
+        
+        
     }
 }
