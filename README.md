@@ -32,3 +32,14 @@ This app is designed to create math problems based on The four basic arithmetic 
 ### Formatting of both logWrong.txt file and logRight.txt
 
 ![6](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/Matut-test4.gif)
+
+## Third Assignment Dice Game 
+
+![7](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/diceGame-test1.gif)
+
+## Fourth Assignment Battle Ships
+### Not in cheat mode
+![8](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/shipSinkingGame-test1.gif)
+
+### In cheat mode
+![9](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/shipSinkingGame-test2.gif)
