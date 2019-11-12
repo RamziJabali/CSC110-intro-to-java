@@ -17,7 +17,7 @@ public class ShipSinkingGame {
     private static final int MAX_NUM_OF_MISSES = 12;
     private static final String MODE_N_CHEAT_MODE = "Do you want play mode? (N = cheat mode) (Y = play mode): ";
     public static final String IN_CHEAT_MODE_ENJOY = "OK - We're in CHEAT mode.  Enjoy . . .";
-    public static final String PLAYMODE_ENJOY = "OK - We're in PLAY mode. Enjoy...";
+    public static final String PLAY_MODE_ENJOY = "OK - We're in PLAY mode. Enjoy...";
 
     private int totalNumOfShotsTaken;
 
@@ -72,7 +72,7 @@ public class ShipSinkingGame {
             printNewLine(IN_CHEAT_MODE_ENJOY);
             return true;
         }
-        printNewLine(PLAYMODE_ENJOY);
+        printNewLine(PLAY_MODE_ENJOY);
         return false;
     }
 

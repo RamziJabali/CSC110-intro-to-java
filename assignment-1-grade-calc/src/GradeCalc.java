@@ -43,7 +43,7 @@ public class GradeCalc {
         Scanner kb = new Scanner(System.in);
 
         System.out.println("GradeCalc\n"
-                + "This application calculates the letter garde in CSC110 based on the userinputs\n"
+                + "This application calculates the letter grade in CSC110 based on the user inputs\n"
                 + "  NOTE: All inputs should be in range of 0 to 100, inclusive.\n");
 
         //START of the INPUT SECTION
@@ -89,7 +89,7 @@ public class GradeCalc {
         //END of the INPUT SECTION
 
         //START of the PROCESSING SECTION
-        //PROCESSING the user INPUT that has been checked or verifyed
+        //PROCESSING the user INPUT that has been checked or verified
         programmingAssignmentPoints = PROGRAMMING_ASSIGNMENTS_WEIGHT * percentageProgrammingAssignments;
         labAssignmentPoints = LAB_ASSIGNMENTS_WEIGHT * percentageLabAssignment;
         MplHwPoints = MPL_HMW_WEIGHT * percentageMplHw;
@@ -138,7 +138,7 @@ public class GradeCalc {
                     System.out.println("   Good Job! You should have little trouble in CSC205.");
                     break;
                 case 'C':
-                    System.out.println("   Ok, you passed, but you may be challeneged in CSC205.");
+                    System.out.println("   Ok, you passed, but you may be challenged in CSC205.");
                     break;
                 case 'D':
                     System.out.println("   When you retake this course, you will be able to do much better.");
