@@ -24,8 +24,9 @@ This app is designed to create math problems based on The four basic arithmetic 
 ![3](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/Matut-test1.gif)
 
 ### Second run with a logWrong.txt file
+#### Reading questions done wrong from file
 ![4](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/Matut-test2.gif)
-
+#### Skipping the option to go over wrong questions
 ![5](https://github.com/RamziJabali/CSC110-intro-to-java/blob/master/screen-shots/Matut-test3.gif)
 
 ### Formatting of both logWrong.txt file and logRight.txt
